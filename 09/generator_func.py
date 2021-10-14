@@ -31,3 +31,31 @@ import sys
 print(sys.getsizeof(st))
 
 
+def gpows(s):
+    for i in s:
+        yield i ** 2
+    
+st = gpows([1,2,3,4,5,6,7,8,9])
+for i in st:
+    print(i, end = ' ')
+
+sys.getsizeof(st)
+
+
+# yield from
+def get_nums():
+    ns = [0,1,0,1,0,1]
+    for i in ns:
+        yield i
+        
+g = get_nums()
+next(g)
+next(g)
+
+def get_nums_from():
+    ns = [0,1,0,1,0,1]
+    yield from ns
+    
+g = get_nums_from()
+next(g)
+next(g)
