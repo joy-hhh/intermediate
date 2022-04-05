@@ -34,5 +34,10 @@ z = zip('abc', (1,2,3))
 for i in z:
     print(i, end = ', ')
 
+print()
+print()
 
+# 셋 이상의 값 조합
+c = list(zip('abc', (1,2,3), ['one', 'two', 'three']))
+print(c)
 
