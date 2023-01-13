@@ -1,9 +1,5 @@
-# 스페셜 메소드 : 호출 시점이 약속된 메소드
+# 스페셜 메소드 : 호출 시점이 약속된 메소드 (직접 그 이름을 명시하지 않고 다른 경로를 통해서 혹은 상황에 따라 자동으로 호출되는 메소드)
 # __name__
-
-from matplotlib.pyplot import cla
-from regex import D
-from sympy import Wild
 
 
 t = (1,2,3)
@@ -16,6 +12,7 @@ for i in itr:
 s = str(t)
 print(s)
 
+t = (1,2,3)
 print(t.__len__())
 itr = t.__iter__()
 for i in itr:

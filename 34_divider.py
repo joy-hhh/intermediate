@@ -1,5 +1,5 @@
 # 34_divider.py
-import adder as ad
+import adder2 as ad
 
 def divide(n1, n2):
     return n1 / n2

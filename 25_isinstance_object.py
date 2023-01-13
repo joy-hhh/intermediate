@@ -17,9 +17,10 @@ class A:
 class Z(A):
     pass
 
-issubclass(Z,A)
+print(issubclass(Z,A))
 
-issubclass(type, object)
+print(issubclass(type, object))
 
+print()
 print(dir(object))
 
