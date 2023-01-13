@@ -23,7 +23,7 @@ for i in r1:
 print(r5)
 
 # if list comprehension
-r5 = [x * 2 for x in r1 if x %2]   # if절이 추가된 list comprehension
+r5 = [x * 2 for x in r1 if x % 2]   # if절이 추가된 list comprehension
 print(r5)
 
 # 중첩 for

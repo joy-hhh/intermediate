@@ -44,5 +44,3 @@ f5 = fct_fac2(3)
 
 print(f4(4))
 print(f5(4))
-
-
